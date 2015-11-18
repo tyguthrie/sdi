@@ -223,7 +223,7 @@ def Count(): # Counts total features in a set of shapefiles
 
     arcpy.AddMessage("Total: " + str(total))
 
-    def SpatialRelate(): # Intersects two feature classes and creates a relationship class
+def SpatialRelate(): # Intersects two feature classes and creates a relationship class
 
     # set the workspace
     gp.workspace = sys.argv[1]
