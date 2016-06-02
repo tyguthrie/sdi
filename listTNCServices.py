@@ -115,10 +115,10 @@ def listServices(): #This function will list all services on TNC Servers
         
         # Gather inputs      
         
-        adminUser = "agsadmin" 
-        adminPass = "This4now!"
-        AGOUser = "tguthrie@tnc.org_TNC"
-        AGOPass = "8ETh8dre"
+        adminUser = "" 
+        adminPass = ""
+        AGOUser = ""
+        AGOPass = ""
 
         serverlist = [["wasde.tnc",6080],
                       ["mnsde.tnc",6080],
